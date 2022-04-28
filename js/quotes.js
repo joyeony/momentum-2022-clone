@@ -1,6 +1,6 @@
 const quotes = [    
 {
-quote:`Spread love everywhere you go. Let no one ever come to you without leaving happier.`,
+quote:`Spread love everywhere you go.`,
 author: `Mother Teresa`,
 },
 {
@@ -24,7 +24,7 @@ quote:`Tell me and I forget. Teach me and I remember. Involve me and I learn.`,
 author: `Benjamin Franklin`,
 },
 {
-quote:`The best and most beautiful things in the world cannot be seen or even touched — they must be felt with the heart.`,
+quote:`The best and most beautiful things in the world cannot be seen or even touched.`,
 author: `Helen Keller`,
 },
 {
@@ -36,13 +36,13 @@ quote:`Whoever is happy will make others happy too.`,
 author: `Anne Frank`,
 },
 {
-quote:`Do not go where the path may lead, go instead where there is no path and leave a trail.`,
+quote:`Go instead where there is no path and leave a trail.`,
 author: `Ralph Waldo Emerson`,
 }
 ]
 
-const quote = document.querySelector("#quote span:first-child");
-const author = document.querySelector("#quote span:last-child");
+const quote = document.querySelector("#quotes span:first-child");
+const author = document.querySelector("#quotes span:last-child");
 
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)]; // array 0 ~ 9 lines read
 
